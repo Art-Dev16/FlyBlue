@@ -1,0 +1,210 @@
+body{
+	background: url("https://survivre-a-la-nature.com/wp-content/uploads/2018/06/commentre-reconnaitre-un-nuage-1024x550.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+img.logoFlyBlue{
+	position: absolute;
+	top: 1%;
+	left: 0.5%;
+	width:  10%;
+	height: 12.5%;
+	border: 5px solid skyblue;
+	border-radius: 30px;
+}
+
+img.seco{
+	position: absolute;
+	top: 3%;
+	left: 85%;
+	transition: 0.3s;
+}
+
+img.seco:hover{
+	opacity: 0.5;
+}
+
+img.fr{
+	position: absolute;
+	top: 10%;
+	left: 86%;
+	transition: 0.3s;
+}
+
+img.fr:hover{
+	opacity: 0.5;
+
+
+}
+
+header{
+	background-color: white;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 20%;
+}
+
+span.span_volez{
+	position: absolute;
+	left: 12%;
+	top: 10%;
+	font-size: 150%;
+	text-align: center;
+}
+
+
+button.reserv{
+	position: absolute;
+	left: 70%;
+	top: 0%;
+	width: 15%;
+	height: 20%;
+	background-color: orange;
+	border: 5px solid black;
+	border-radius: 15px;
+	font-size: 15pt;
+	transition: 0.5s;
+}
+
+button.reserv:hover{
+	opacity: 0.6;
+	border-radius: 25px;
+}
+
+div.rectres{
+	background-color: gray;
+	position: absolute;
+	left: 0%;
+	top: 20%;
+	width: 100%;
+	height: 30%;
+	visibility: hidden;
+	display: inline-block;
+
+
+}
+img.dest1{
+	position: absolute;
+	max-width: 20%;
+	max-height: 100%;
+	left: 2%;
+}
+img.dest1:hover{
+	filter: blur(1px);
+}
+
+img.dest2{
+	position: absolute;
+	max-width: 25%;
+	max-height: 100%;
+	left: 20%;
+}
+img.dest2:hover{
+	filter: blur(1px);
+}
+img.dest3{
+	position: absolute;
+	max-width: 25%;
+	max-height: 100%;
+	left: 45%;
+}
+img.dest3:hover{
+	filter: blur(1px);
+}
+img.dest4{
+	position: absolute;
+	width: 25%;
+	max-height: 100%;
+	left: 70%;
+}
+img.dest4:hover{
+	filter: blur(1px);
+}
+
+
+div.rectconf{
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	background-color: gray;
+	width: 70%;
+	height: 30%;
+	visibility: hidden;
+}
+
+span.selec{
+	font-size: 15pt;
+	font-weight: bold;
+
+
+}
+
+span.affdest{
+	font-size: 15pt;
+	font-weight: bold;
+
+
+}
+
+
+form.ttlesinputs1{
+	display: flex;
+	flex-direction: row;
+
+
+}
+form.ttlesinputs1 input{
+	margin: 1%;
+
+	
+}
+
+
+
+input.number{
+	width: 20%;
+	
+}
+
+form.ttlesinputs2{
+	margin-top: 1%;
+	display: flex;
+	flex-direction: row;
+
+
+}
+form.ttlesinputs2 input{
+	margin: 1%;
+
+
+
+	
+}
+
+select.select_kilos{
+	margin-left: 2%;
+	border: 2% solid;
+	border-radius: 5%;
+
+}
+
+select.handi{
+	margin-left: 2%;
+}
+
+div.rectprix{
+	background-color: seagreen;
+	max-width: 17%; 
+}
+
+
+
+
+
+
+
+

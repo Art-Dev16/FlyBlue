@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FlyBlue</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<span class="span_volez">
+			Volez vers<br><hr>l'infiniment loin !
+		</span>
+	</header>
+
+
+
+	<nav>
+		nav
+	</nav>
+
+	<img src="E:\logoFlyBlue.png" class="logoFlyBlue">
+	<img src="E:\se co.png" class="seco">
+	<img src="E:\FlyBlue\fr.png" class="fr" id="fr">
+
+	<button class="reserv" id="reserv" onclick="aff_rectres()">
+		Mes réservations
+	</button>
+
+	<div class="rectres" id="rectres">
+		<div class="img1">
+			<img  id="dest1" title="FIDJI" class="dest1" src="https://www.lonelyplanet.fr/sites/lonelyplanet/files/fiji_0.jpg" onclick="houra1()">
+		</div>
+		<div class="img2">
+			<img  title="POLOGNE" class="dest2" src="https://www.lonelyplanet.fr/sites/lonelyplanet/files/poland.jpg" onclick="houra2()">
+		</div>
+		<div class="img3">
+			<img  title="National Park Service , Etats-Unis" class="dest3" src="https://www.lonelyplanet.fr/sites/lonelyplanet/files/usa_1.jpg" onclick="houra3()">
+		</div>
+		<div class="img4">
+			<img  title="GROENLAND" class="dest4" src="https://www.lonelyplanet.fr/sites/lonelyplanet/files/greenland.jpg" onclick="houra4()">
+		</div>
+	</div>
+
+	<div class="rectconf" id="rectconf">
+		<span class="selec">
+			Vous avez selectionnné la destination :
+		</span>
+		<span class="affdest" id="affdest">
+			--ici sera affichée la destination sélectionnée--
+			
+		</span>
+
+		<form class="ttlesinputs1">
+			
+			<input type="number" name="number" id="number" placeholder="nombre de voyageurs" class="number" max="8" min="1" oninput="affprix()" required>
+			
+
+			<input type="date" name="date" class="date" id="date" placeholder="Départ">
+
+			<select class="select" name="select" id="select">
+				<option value="">Animal de compagnie</option>
+			    <option value="dog">Chien</option>
+			    <option value="cat">Chat</option>
+			    <option value="hamster">Hamster</option>
+			    <option value="parrot">Perroquet</option>
+			    <option value="spider">Araignée</option>
+			    <option value="goldfish">Eléphant</option>
+				
+			</select>
+
+			<input type="radio" id="simple" name="voy" checked>
+
+         	<label for="simple">Aller Simple</label>
+
+         	<input type="radio" id="retour" name="voy">
+
+         	<label for="retour">Aller Retour</label>
+
+
+         	
+		</form>
+		<form class="ttlesinputs2">
+			<input type="radio" id="ere" name="classe" oninput="affprix()">
+
+         	<label for="simple">Première Classe</label>
+
+         	<input type="radio" id="eme" name="classe" oninput="prixdiv()" checked >
+
+         	<label for="retour">Deuxième Classe</label>
+
+
+         	<select class="select_kilos" name="select_kilos" id="select_kilos">
+         		<option>Total de poids des baguages</option>
+         		<option>10-20kg</option>
+			    <option>20-25kg</option>
+			    <option>25-40kg</option>
+			   	<option>40-70kg</option>
+			   	<option>Je pars les mains dans les poches</option>
+         		
+         		
+         	</select>
+         	<select class="handi" name="handi" id="handi">
+         		<option>Handicaps et Maladies</option>
+         		<option>handicapé(e) moteur</option>
+         		<option>Troubles de la vue</option>
+         		<option>Troubles auditifs</option>
+         		<option>Dyslexie</option>
+         		<option>Autisme</option>
+         		<option>Anorexie</option>
+         		<option>Paralysie cérébrale</option>
+         		<option>Maladie de Parkinson</option>
+         		<option>Tétraplégie</option>
+         		<option>Paraplégie</option>
+         		<option>J'ai deux pieds et demi</option>
+         		<option>Apnée du sommeil</option>
+         		<option>Dissociation Mentale</option>
+         		<option>Migraines</option>
+         		<option>Troubles épileptiques</option>
+         		<option>AUCUN</option>
+
+         		
+         	</select>
+
+		</form>
+
+		<div class="rectprix">
+			<span class="avprix" id="avprix">
+				<b>
+					Prix du vol :
+				</b>
+				
+			</span>
+			<span class="prix" id="prix">
+				
+			</span>
+			<span class="euro" id="euro">
+				<b>
+					€
+				</b>
+				
+			</span>
+		</div>
+
+	</div>
+
+
+
+
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
