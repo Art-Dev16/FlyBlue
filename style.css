@@ -201,10 +201,24 @@ div.rectprix{
 	max-width: 17%; 
 }
 
+button.reserver{
+	position: absolute;
+	left: 80%;
+	width: 18%;
+	height: 20%;
+	background-color: orange;
+	font-size: 10pt;
+	border: 5px solid black;
+	border-radius: 5px;
+}
 
-
-
-
-
+span.comp{
+	position: absolute;
+	color: black;
+	font-weight: bold;
+	top: 16%;
+	left: 0.6%;
+	font-size: 13pt;
+}
 
 

@@ -20,7 +20,12 @@
 	</nav>
 
 	<img src="https://raw.githubusercontent.com/Art-Dev16/FlyBlue/branch_FlyBlue/logoFlyBlue.png" class="logoFlyBlue">
+	<span class="comp"> Compagnie Aérienne </span>
+
+	<a href="file:///C:/Users/arthu/Documents/FlyBlue/Form/index.html">
 	<img src="https://raw.githubusercontent.com/Art-Dev16/FlyBlue/branch_FlyBlue/se%20co.PNG" class="seco">
+	</a>
+
 	<img src="https://raw.githubusercontent.com/Art-Dev16/FlyBlue/branch_FlyBlue/fr.PNG" class="fr" id="fr">
 
 	<button class="reserv" id="reserv" onclick="aff_rectres()">
@@ -69,11 +74,11 @@
 				
 			</select>
 
-			<input type="radio" id="simple" name="voy" checked>
+			<input type="radio" id="simple" name="voy" oninput="simplediv2()" checked>
 
          	<label for="simple">Aller Simple</label>
 
-         	<input type="radio" id="retour" name="voy">
+         	<input type="radio" id="retour" name="voy" oninput="retourfois2()">
 
          	<label for="retour">Aller Retour</label>
 
@@ -140,7 +145,13 @@
 				</b>
 				
 			</span>
+		
 		</div>
+
+		<button class="reserver" id="reserver">
+			Réserver
+			
+		</button>
 
 	</div>
 
@@ -152,3 +163,5 @@
 </body>
 
 </html>
+
+

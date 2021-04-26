@@ -68,3 +68,20 @@ function prixdiv(){
 
 
 }
+
+function retourfois2(){
+	if (document.getElementById('retour').checked){
+		montant *= 2
+		document.getElementById("prix").innerHTML = montant;
+	}
+	
+}
+
+function simplediv2(){
+	
+	montant /= 2
+	document.getElementById("prix").innerHTML = montant;
+
+	
+
+}
